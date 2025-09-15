@@ -1,0 +1,85 @@
+:root {
+    --text-color: #f0e6d6; /* Dorado opaco */
+    --accent-color: #a08c5c; /* Dorado opaco para acentos */
+    --bg-color: #121212; /* Negro oscuro */
+    --translucent-color: rgba(160, 140, 92, 0.5); /* Dorado traslúcido */
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+body::before {
+    --texture-background-color: #121212;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 10px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.main-container {
+    height: 100%;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 0.15rem;
+    margin-top: 0.5rem;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn-outline-custom {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.btn-outline-custom:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
+.social-icons {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: right;
+}
+
+.social-icons .icon-link {
+    color: var(--translucent-color);
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon-link:hover {
+    color: var(--accent-color);
+}
