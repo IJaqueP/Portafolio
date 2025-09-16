@@ -1,36 +1,120 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Iván Jaque</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portafolio Iván Jaque</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Fuente de Letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    <!--CSS-->
+    <!--CSS-->
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
+
 <body>
-    <div class="container-fluid main-container">
-        <div class="row align-items-center justify-content-center h-100">
-            <div class="col-lg-8 col-md-10 text-center">
-                <h1 class="main-title">BIENVENIDOS.</h1>
-                <h2 class="subtitle">SOY IVÁN JAQUE, DESARROLLADOR FULLSTACK.</h2>
-                <div class="button-row mt-5">
-                    <a href="#quien-soy" class="btn btn-outline-custom">QUIÉN SOY</a>
-                    <a href="#proyectos" class="btn btn-outline-custom">MIS PROYECTOS</a>
-                    <a href="#habilidades" class="btn btn-outline-custom">HABILIDADES</a>
-                    <a href="#contacto" class="btn btn-outline-custom">CONTACTO</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-2 social-icons">
-                <a href="https://github.com/tu-usuario" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/tu-usuario" target="_blank" class="icon-link"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:tu-correo@example.com" class="icon-link"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
+    <!--Líneas decorativas-->
+    <div class="golden-lines-background">
+        <div class="golden-line golden-line-1"></div>
+        <div class="golden-line golden-line-2"></div>
+        <div class="golden-line golden-line-3"></div>
+        <div class="golden-line golden-line-4"></div>
+        <div class="golden-line golden-line-5"></div>
+        <div class="golden-line golden-line-6"></div>
+        <div class="golden-line golden-line-7"></div>
+        <div class="golden-line golden-line-8"></div>
+        <div class="golden-line golden-line-9"></div>
+        <div class="golden-line golden-line-10"></div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Patrón de líneas entrecruzadas de fondo-->
+    <div class="crosshatch-background">
+        <div class="crosshatch-pattern"></div>
+    </div>
+
+    <!--Barra Lateral-->
+    <aside class="social-sidebar">
+        <div class="social-links">
+            <a href="#contact" class="social-link" data-platform="email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#projects" class="social-link" data-platform="portfolio">
+                <i class="fas fa-image"></i>
+            </a>
+            <a href="https://github.com/IJaqueP" target="_blank" class="social-link" data-platform="github">
+                <i class="fas fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ivan-jaque-0750ba350" target="_blank" class="social-link" data-platform="linkedin">
+                <i class="fas fa-linkedin"></i>
+            </a>
+        </div>
+    </aside>
+
+    <!--Elementos decorativos de fondo-->
+    <div class="background-waves">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+        <div class="wave wave5"></div>
+    </div>
+
+    <!--Estrella decorativa-->
+    <div class="decorative-star">
+        <i class="fas fa-star"></i>
+    </div>
+
+    <!--Contenido Principal-->
+    <section id="hero" class="hero-section active">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-8 text-center hero-content">
+                    <h1 class="hero-title">
+                        <span class="welcome-text">BIENVENIDOS</span><br>
+                        <span class="intro-text">SOY <span class="name-highlight">IVÁN JAQUE</span></span><br>
+                        <span class="role-text">DESARROLLADOR FULLSTACK.</span>
+                    </h1>
+
+                    <div class="navigation-buttons">
+                        <button class="nav-btn btn-primary" data-section="about">
+                            <i class="fas fa-user"></i>
+                            SOBRE MÍ
+                        </button>
+                        <button class="nav-btn btn-primary" data-section="projects">
+                            <i class="fas fa-code"></i>
+                            MIS PROYECTOS
+                        </button>
+                        <button class="nav-btn btn-primary" data-section="contact">
+                            <i class="fas fa-envelope"></i>
+                            CONTACTO
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <!--JS-->
     <script src="assets/JS/script.js"></script>
 </body>
 </html>
