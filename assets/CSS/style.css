@@ -872,7 +872,7 @@ section {
 }
 
 .accordion-item.active .accordion-content {
-    max-height: 800px;
+    max-height: 100%;
     padding: var(--space-lg) var(--space-xl) var(--space-xl);
 }
 
@@ -1317,7 +1317,7 @@ section {
 
 .back-to-hero {
     position: fixed;
-    bottom: var(--space-2xl);
+    top: var(--space-xl);
     left: var(--space-xl);
     background: linear-gradient(45deg, var(--primary-gold), var(--accent-gold));
     color: var(--darker);
@@ -1513,20 +1513,19 @@ section {
     }
     
     .back-to-hero {
-        bottom: 8rem;
-        left: 50%;
-        transform: translateX(-50%);
+        top: var(--space-md);
+        left: var(--space-md);
         padding: var(--space-sm) var(--space-md);
         font-size: var(--font-xs);
     }
     
     .back-to-hero:hover {
-        transform: translateX(-50%) translateY(-3px);
+        transform: translateY(-3px) scale(1.05);
     }
     
     .back-to-hero:active,
     .back-to-hero.clicked {
-        transform: translateX(-50%) translateY(-1px) scale(0.98);
+        transform: translateY(-1px) scale(0.98);
     }
     
     .scroll-to-top {
@@ -1590,12 +1589,18 @@ section {
     }
     
     .back-to-hero {
-        bottom: 7rem;
+        top: var(--space-sm);
+        left: var(--space-sm);
         padding: var(--space-xs) var(--space-sm);
     }
     
     .back-to-hero span {
-        font-size: 0.75rem;
+        display: none;
+    }
+    
+    .back-to-hero i {
+        font-size: var(--font-sm);
+        margin: 0;
     }
 }
 
