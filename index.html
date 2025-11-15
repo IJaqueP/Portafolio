@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
@@ -64,16 +64,16 @@
 
     <!--Elementos decorativos de fondo-->
     <div class="background-waves">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
-        <div class="wave wave5"></div>
-    </div>
-
-    <!--Estrella decorativa-->
-    <div class="decorative-star">
-        <i class="fas fa-star"></i>
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+        <div class="wave wave-4"></div>
+        <div class="wave wave-5"></div>
+        <div class="wave wave-6"></div>
+        <div class="wave wave-7"></div>
+        <div class="wave wave-8"></div>
+        <div class="wave wave-9"></div>
+        <div class="wave wave-10"></div>
     </div>
 
     <!-- Hero Section -->
@@ -82,7 +82,7 @@
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-lg-8 text-center hero-content">
                     <h1 class="hero-title">
-                        <span class="welcome-text">BIENVENIDOS</span><br>
+                        <span class="welcome-text">BIENVENIDOS</span>
                         <span class="intro-text">SOY <span class="name-highlight">IVÁN JAQUE</span></span>
                         <span class="role-text">DESARROLLADOR FULLSTACK.</span>
                     </h1>
@@ -95,6 +95,10 @@
                         <button class="nav-btn btn-primary" data-section="projects">
                             <i class="fas fa-code"></i>
                             MIS PROYECTOS
+                        </button>
+                        <button class="nav-btn btn-primary" data-section="skills">
+                            <i class="fas fa-lightbulb"></i>
+                            MIS HABILIDADES
                         </button>
                         <button class="nav-btn btn-primary" data-section="contact">
                             <i class="fas fa-envelope"></i>
@@ -113,34 +117,46 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, laboriosam. 
-                        Perspiciatis quisquam delectus maxime eaque nisi quos doloribus et dicta expedita, 
-                        iusto voluptatem alias ipsum, quaerat est quasi? Libero, aut?
+                        <strong>Iván Jaque Pinto</strong> | Desarrollador Full Stack Junior
                     </p>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, sequi suscipit! 
-                        Doloremque asperiores libero at veritatis voluptatum fugiat magni deleniti laudantium. 
-                        Atque earum natus modi neque deserunt dolor maxime voluptate?
+                        Soy un desarrollador full stack en formación a través del bootcamp Talento Digital, 
+                        actualmente explorando el mundo del desarrollo web con JavaScript, HTML y CSS. 
+                        Con un enfoque en código limpio y mejores prácticas de programación, estoy construyendo 
+                        mis habilidades tanto en frontend como en backend, trabajando con tecnologías como Node.js, 
+                        Express y bases de datos relacionales.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ipsam cumque earum, blanditiis laboriosam error vel? Maxime ipsa ex pariatur earum, vel, 
-                        temporibus officiis eveniet inventore voluptatibus tempora quam dolor aliquid!
+                        Aunque mi trayectoria profesional comenzó en el área de ventas, mi verdadera pasión siempre 
+                        fue la tecnología. Lo que inició como un interés autodidacta se transformó en un compromiso 
+                        formal cuando decidí especializarme en desarrollo web. Mi motivación radica en resolver 
+                        problemas reales a través del código y crear soluciones que generen impacto, manteniendo
+                        siempre la creatividad en los trabajos.
+                    </p>
+                    <p>
+                        Radicado en Santiago, Chile, estoy abierto a nuevas oportunidades laborales, colaboraciones 
+                        en proyectos y trabajo freelance mientras continúo creciendo en este mundo del desarrollo. 
+                        Mi objetivo es combinar experiencia práctica con formación continua para consolidarme como un 
+                        desarrollador versátil y confiable en la industria tech.
+                    </p>
+                    <p>
+                        Fuera del código, disfruto de Magic: The Gathering, TeamFight Tactics y fútbol, actividades 
+                        que me ayudan a mantener balance y creatividad, además del pensamiento crítico.
                     </p>
                 </div>
-                <div class="about-stats">
+                <!-- <div class="about-stats">
                     <div class="stat-item">
                         <h3>50+</h3>
                         <p>Proyectos completados</p>
                     </div>
                     <div class="stat-item">
-                        <h3>+3</h3>
+                        <h3>1</h3>
                         <p>Años de experiencia</p>
                     </div>
                     <div class="stat-item">
                         <h3>20+</h3>
                         <p>Olita olita</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -156,7 +172,6 @@
                     <h3>Frontend</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">JavaScript (ES+6)</span>
-                        <span class="skill-tag">React.js</span>
                         <span class="skill-tag">HTML5 & CSS3</span>
                         <span class="skill-tag">Bootstrap</span>
                     </div>
@@ -194,26 +209,30 @@
                 <!-- Proyecto 1 -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h3>Proyecto Número 1</h3>
-                        <span class="accordion-tech">Tecnologías usadas</span>
+                        <h3>Proyecto Informativo de Ciberseguridad</h3>
+                        <span class="accordion-tech">Información</span>
                         <i class="fas fa-chevron-down accordion-icon"></i>
                     </div>
                     <div class="accordion-content">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Harum, autem impedit quo tempora repellendus modi eaque cupiditate excepturi illo numquam aliquam? 
-                            Corrupti quisquam vero delectus id veritatis, sint exercitationem! Adipisci. 
-                        </p>
+                            Sitio web educativo e interactivo sobre ciberseguridad. Presenta información clara, elementos visuales modernos y componentes dinámicos que refuerzan buenas prácticas digitales.                        </p>
                         <h4>Características Principales:</h4>
                         <ul>
-                            <li>Característica 1</li>
-                            <li>Característica 2</li>
-                            <li>Característica 3</li>
-                            <li>Característica 4</li>
+                            <li>Inicio: Hero llamativo, navegación responsiva y diseño moderno con animaciones.</li>
+                            <li>Amenazas Comunes: Phishing, Ransomware, Malware y DDoS mediante tarjetas interactivas y carrusel informativo.</li>
+                            <li>Consejos de Seguridad: Tips ilustrados sobre contraseñas, actualizaciones, navegación segura y buenas prácticas.</li>
+                            <li>Contacto: Formulario con validación en tiempo real y categorías de consulta.</li>
+                            <li>Quiz Interactivo: 8 preguntas con puntuación automática, feedback personalizado y barra de progreso.</li>
+                        </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li>Frontend: HTML5, CSS3 (Flexbox, Grid, animaciones, responsive), JavaScript ES6+.</li>
+                            <li>Frameworks/Librerías: Bootstrap 5, jQuery, Font Awesome, Google Fonts.</li>
+                            <li>Herramientas: Git, GitHub, VS Code, DevTools.</li>
                         </ul>
                         <div class="project-links">
-                            <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
-                            <a href="#" class="btn btn--sm btn--outline">GitHub</a>
+                            <a href="https://ijaquep.github.io/Proyecto-CiberSeguridad" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
+                            <a href="https://github.com/IJaqueP/Proyecto-CiberSeguridad" class="btn btn--sm btn--outline" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -221,35 +240,38 @@
                 <!-- Proyecto 2 -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h3>Proyecto Número 2</h3>
-                        <span class="accordion-tech">Tecnologías usadas</span>
+                        <h3>API Veterinaria – Gestión y Transacciones</h3>
+                        <span class="accordion-tech">Información</span>
                         <i class="fas fa-chevron-down accordion-icon"></i>
                     </div>
                     <div class="accordion-content">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Harum, autem impedit quo tempora repellendus modi eaque cupiditate excepturi illo numquam aliquam? 
-                            Corrupti quisquam vero delectus id veritatis, sint exercitationem! Adipisci. 
+                            API RESTful para administrar tutores y pacientes de una clínica veterinaria, con CRUD completo y transacciones utilizando Sequelize.
                         </p>
                         <h4>Características Principales:</h4>
                         <ul>
-                            <li>Característica 1</li>
-                            <li>Característica 2</li>
-                            <li>Característica 3</li>
-                            <li>Característica 4</li>
+                            <li>Gestión de tutores y pacientes (crear, listar, actualizar, eliminar).</li>
+                            <li>Modelos relacionados 1:N (un tutor → muchos pacientes).</li>
+                            <li>Validaciones, asociaciones y consultas mediante Sequelize ORM.</li>
+                        </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li>Backend: Node.js, Express.js.</li>
+                            <li>Base de datos: PostgreSQL + Sequelize.</li>
+                            <li>Utilidades: dotenv para entornos, Git/GitHub para control de versiones.</li>
                         </ul>
                         <div class="project-links">
-                            <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
-                            <a href="#" class="btn btn--sm btn--outline">GitHub</a>
+                            <!-- <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a> -->
+                            <a href="https://github.com/IJaqueP/M7-Veterinaria_evPortafolio" class="btn btn--sm btn--outline">GitHub</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Proyecto 3 -->
-                <div class="accordion-item">
+                <!-- <div class="accordion-item">
                     <div class="accordion-header">
                         <h3>Proyecto Número 3</h3>
-                        <span class="accordion-tech">Tecnologías usadas</span>
+                        <span class="accordion-tech">Información</span>
                         <i class="fas fa-chevron-down accordion-icon"></i>
                     </div>
                     <div class="accordion-content">
@@ -265,18 +287,24 @@
                             <li>Característica 3</li>
                             <li>Característica 4</li>
                         </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                         <div class="project-links">
                             <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
                             <a href="#" class="btn btn--sm btn--outline">GitHub</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Proyecto 4 -->
-                <div class="accordion-item">
+                <!-- <div class="accordion-item">
                     <div class="accordion-header">
-                        <h3>Proyecto Número 4</h3>
-                        <span class="accordion-tech">Tecnologías usadas</span>
+                        <h3>Proyecto Número 3</h3>
+                        <span class="accordion-tech">Información</span>
                         <i class="fas fa-chevron-down accordion-icon"></i>
                     </div>
                     <div class="accordion-content">
@@ -292,12 +320,117 @@
                             <li>Característica 3</li>
                             <li>Característica 4</li>
                         </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                         <div class="project-links">
                             <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
                             <a href="#" class="btn btn--sm btn--outline">GitHub</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
+                <!-- Proyecto 5 -->
+                <!-- <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Proyecto Número 3</h3>
+                        <span class="accordion-tech">Información</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Harum, autem impedit quo tempora repellendus modi eaque cupiditate excepturi illo numquam aliquam? 
+                            Corrupti quisquam vero delectus id veritatis, sint exercitationem! Adipisci. 
+                        </p>
+                        <h4>Características Principales:</h4>
+                        <ul>
+                            <li>Característica 1</li>
+                            <li>Característica 2</li>
+                            <li>Característica 3</li>
+                            <li>Característica 4</li>
+                        </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Proyecto 6 -->
+                <!-- <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Proyecto Número 3</h3>
+                        <span class="accordion-tech">Información</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Harum, autem impedit quo tempora repellendus modi eaque cupiditate excepturi illo numquam aliquam? 
+                            Corrupti quisquam vero delectus id veritatis, sint exercitationem! Adipisci. 
+                        </p>
+                        <h4>Características Principales:</h4>
+                        <ul>
+                            <li>Característica 1</li>
+                            <li>Característica 2</li>
+                            <li>Característica 3</li>
+                            <li>Característica 4</li>
+                        </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Proyecto 7 -->
+                <!-- <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Proyecto Número 3</h3>
+                        <span class="accordion-tech">Información</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Harum, autem impedit quo tempora repellendus modi eaque cupiditate excepturi illo numquam aliquam? 
+                            Corrupti quisquam vero delectus id veritatis, sint exercitationem! Adipisci. 
+                        </p>
+                        <h4>Características Principales:</h4>
+                        <ul>
+                            <li>Característica 1</li>
+                            <li>Característica 2</li>
+                            <li>Característica 3</li>
+                            <li>Característica 4</li>
+                        </ul>
+                        <h4>Tecnologías:</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
 
             </div>
         </div>
@@ -364,7 +497,7 @@
         <div class="container">
             <h2 class="section-title">Contacto</h2>
             <div class="contact-content">
-                <div class="contact info">
+                <div class="contact-info">
                     <h3>Hablemos</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -381,11 +514,33 @@
                         <a href="tel:+56961206390">+569 6120 6390</a>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-map-market-alt"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <span>Santiago, Chile</span>
                     </div>
 
                 </div>
+
+                <!-- Formulario de contacto -->
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Enviar Mensaje</button>
+                    <div class="form-status"></div>
+                </form>
+
             </div>
         </div>
     </section>
@@ -396,12 +551,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Acerca</h3>
+                    <h3>Portafolio</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Expedita cumque maiores enim dolore vel dolor, ducimus nesciunt laboriosam officiis voluptas dignissimos minus architecto necessitatibus? 
-                        Deserunt soluta reiciendis natus odit enim.
+                        <strong>Iván Jaque Pinto</strong><br> 
+                        Desarrollador Full Stack Junior<br> 
+                        Transformando ideas en código. <br>
+                        <a href="tel:+56961206390">+569 6120 6390</a>
                     </p>
+                    <p></p>
                     <div class="footer-social">
                         <a href="#" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -413,7 +570,7 @@
                 <div class="footer-column">
                     <h3>Navegación</h3>
                     <ul class="footer-links">
-                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#hero">Inicio</a></li>
                         <li><a href="#about">Acerca de mí</a></li>
                         <li><a href="#skills">Habilidades</a></li>
                         <li><a href="#projects">Proyectos</a></li>
@@ -424,17 +581,17 @@
                 <div class="footer-column">
                     <h3>Proyectos</h3>
                     <ul class="footer-links">
-                        <li><a href="#" target="_blank">Proyecto 1</a></li>
-                        <li><a href="#" target="_blank">Proyecto 2</a></li>
-                        <li><a href="#" target="_blank">Proyecto 3</a></li>
-                        <li><a href="#" target="_blank">Proyecto 4</a></li>
+                        <li><a href="https://ijaquep.github.io/Proyecto-CiberSeguridad" target="_blank">Proyecto Informativo de Ciberseguridad</a></li>
+                        <li><a href="https://github.com/IJaqueP/M7-Veterinaria_evPortafolio" target="_blank">API Veterinaria – Gestión y Transacciones</a></li>
+                        <!-- <li><a href="#" target="_blank">Proyecto 3</a></li>
+                        <li><a href="#" target="_blank">Proyecto 4</a></li> -->
                     </ul>
                 </div>
 
                 <div class="footer-bottom">
-                    <div class="footerseparator"></div>
+                    <div class="footer-separator"></div>
                     <div class="footer-copyright">
-                        <p>&copy; 2025 Iván Jaque P. Todos los derechos reservados.</p>
+                        <p>&copy; 2025 Iván Jaque Pinto. Todos los derechos reservados.</p>
                     </div>
                 </div>
 
@@ -443,20 +600,9 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!--Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <!--JS-->
